@@ -18,7 +18,8 @@ module.exports = {
                 // refer to container/src/bootstrap.js
                 // in return of ProductsIndex we are returning index.js
                 './ProductsIndex': './src/index'
-            }
+            },
+            shared: ["faker"],
         }),
         new HtmlWebpackPlugin({
             template: './public/index.html'
