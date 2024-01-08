@@ -7,7 +7,10 @@ module.exports = {
     },
     plugins: [
         new ModuleFederationPlugin({
+            // name is not used for Host
             name: "container",
+            // It controls how webpack is going to try to decide 
+            // whether or not to load that remoteEntry.js file
             remotes: {
                 products: "products@http://localhost:8000/remoteEntry.js"
             }
