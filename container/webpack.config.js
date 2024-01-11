@@ -13,7 +13,7 @@ module.exports = {
             // whether or not to load that remoteEntry.js file
             remotes: {
                 products: "products@http://localhost:8000/remoteEntry.js",
-                cart: "cart@http://localhost:8002/remoteEntry.js"
+                cart: 'cart@http://localhost:8002/remoteEntry.js'
             },
         }),
         new HtmlWebpackPlugin({

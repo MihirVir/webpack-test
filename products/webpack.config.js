@@ -17,7 +17,7 @@ module.exports = {
                 // export to outside world you gotta import it like products/ProductsIndex
                 // refer to container/src/bootstrap.js
                 // in return of ProductsIndex we are returning index.js
-                './ProductsIndex': './src/index'
+                './ProductsIndex': './src/bootstrap'
             },
             shared: ["faker"],
         }),
